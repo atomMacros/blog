@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "vitepress-theme-macros",
+  "version": "v1.0.0-alpha.1",
+  "description": "",
+  "main": "./index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minisearch": "^7.1.1",
+    "normalize.css": "^8.0.1",
+    "oh-vue-icons": "1.0.0-rc3"
+  }
+}

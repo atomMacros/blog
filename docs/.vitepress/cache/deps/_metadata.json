@@ -1,0 +1,46 @@
+{
+  "hash": "2b364abe",
+  "configHash": "76a1f52a",
+  "lockfileHash": "a9d143eb",
+  "browserHash": "e589fd33",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.5.13_typescript@5.7.2/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "4ee2f9a6",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.6.7/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "3e6b76c0",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@11.3.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "b865f733",
+      "needsInterop": false
+    },
+    "oh-vue-icons": {
+      "src": "../../../../node_modules/.pnpm/oh-vue-icons@1.0.0-rc3_vue@3.5.13/node_modules/oh-vue-icons/dist/index.esm.min.js",
+      "file": "oh-vue-icons.js",
+      "fileHash": "12b647e3",
+      "needsInterop": false
+    },
+    "oh-vue-icons/icons": {
+      "src": "../../../../node_modules/.pnpm/oh-vue-icons@1.0.0-rc3_vue@3.5.13/node_modules/oh-vue-icons/icons/index.js",
+      "file": "oh-vue-icons_icons.js",
+      "fileHash": "296ea6d1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-W7NAU5GL": {
+      "file": "chunk-W7NAU5GL.js"
+    },
+    "chunk-X54IR6VG": {
+      "file": "chunk-X54IR6VG.js"
+    }
+  }
+}

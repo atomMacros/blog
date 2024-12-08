@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "lib": [
+            "DOM.Iterable",
+            "ESNext",
+            "DOM"
+        ],
+        "types": [
+            "vite/client",
+            "vitepress"
+        ]
+    },
+    "include": [
+        "."
+    ]
+}

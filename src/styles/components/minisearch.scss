@@ -1,0 +1,67 @@
+.marcos-search {}
+
+.minisearch-model {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    .model-mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--m-mask-background);
+        z-index: 100;
+    }
+
+    .search-content {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        background-color: rgba(0, 0, 0, .8);
+        box-shadow: 0 0px 10px 2px #cfbaba;
+        border-radius: var(--m-padding-large);
+        z-index: 101;
+
+        .search-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: calc(var(--m-padding-large) * 2) calc(var(--m-padding-large) * 2);
+
+            .title {
+                display: flex;
+                align-items: center;
+                flex: 1;
+
+                input {
+                    background-color: unset;
+                    border: none;
+                    outline: none;
+                    margin-left: 10px;
+                    caret-color: var(--m-search-caret-color);
+                    width: 80%;
+                    color: var(--m-search-input-color);
+                    font-weight: bold;
+                    letter-spacing: 1.2px;
+                    text-indent: var(--m-padding-large);
+
+                    &::placeholder {
+                        color: var(--m-search-text-color);
+                        font-size: 20px;
+                    }
+                }
+
+                span {
+
+                    margin-left: var(--m-padding-large);
+                }
+            }
+
+            .close {
+                cursor: pointer;
+            }
+        }
+    }
+}

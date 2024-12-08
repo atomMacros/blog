@@ -1,0 +1,32 @@
+// mode style 
+@import url('./mode/light.scss');
+@import url('./mode/dark.scss');
+
+// components
+@import url('./components/nav.scss');
+@import url('./components/minisearch.scss');
+
+// font 
+// use https://github.com/lxgw/LxgwWenKai
+@import url('https://static.zeoseven.com/zsft/95/main/result.css');
+
+body {
+  font-family: "LXGW WenKai GB";
+  font-weight: normal;
+  min-height: 100vh;
+
+  #app {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow-y: hidden;
+
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,73 @@
+:root {
+
+    // define medium
+    --m-mq-large: 1200px;
+    --m-mq-pad: 1023px;
+    --m-mq-mobile: 719px;
+    // define global theme color
+    --m-primary-color: #18a058;
+    --m-info-color: #2080f0;
+    --m-warn-color: #f0a020;
+    --m-danger-color: #d03050;
+
+    // define global light color
+    --m-light-color10: rgba(255, 255, 255, 1);
+    --m-light-color9: rgba(255, 255, 255, .9);
+    --m-light-color8: rgba(255, 255, 255, .8);
+    --m-light-color7: rgba(255, 255, 255, .7);
+    --m-light-color6: rgba(255, 255, 255, .6);
+    --m-light-color5: rgba(255, 255, 255, .5);
+    --m-light-color4: rgba(255, 255, 255, .4);
+    --m-light-color3: rgba(255, 255, 255, .3);
+    --m-light-color2: rgba(255, 255, 255, .2);
+    --m-light-color1: rgba(255, 255, 255, .1);
+
+    --m-light-text-color: rgba(0, 0, 0, 1);
+    --m-light-sub-text-color: rgba(0, 0, 0, .6);
+    // define global dark color
+    --m-dark-color10: rgba(34, 22, 12, 1);
+    --m-dark-color09: rgba(34, 22, 12, 0.9);
+    --m-dark-color08: rgba(34, 22, 12, 0.8);
+    --m-dark-color07: rgba(34, 22, 12, 0.7);
+    --m-dark-color06: rgba(34, 22, 12, 0.6);
+    --m-dark-color05: rgba(34, 22, 12, 0.5);
+    --m-dark-color04: rgba(34, 22, 12, 0.4);
+    --m-dark-color03: rgba(34, 22, 12, 0.3);
+    --m-dark-color02: rgba(34, 22, 12, 0.2);
+    --m-dark-color01: rgba(34, 22, 12, 0.1);
+
+    --m-dark-text-color: var(--m-dark-color10);
+    --m-dark-sub-text-color: #7f7f7f;
+
+    // define global padding style
+    --m-padding-min: 2px;
+    --m-padding-medium: 4px;
+    --m-padding-large: 8px;
+
+    // globa navbar style
+    --navbar-height: 3.6rem;
+    --navbar-padding-h: 1.5rem;
+    --navbar-padding-w: 0.8rem;
+
+    // mask
+    --m-mask-background: rgba(139, 139, 139, 0.4);
+
+}
+
+:root:not(.light) {
+
+    --m-text-color: var(--m-light-text-color);
+    --m-sub-text-color: var(--m-light-sub-text-color);
+    --m-filter-color: var(--m-light-color7);
+
+    // search 
+    --m-search-text-color: var(--m-light-color7);
+    --m-search-input-color: var(--m-light-color10);
+    --m-search-caret-color: var(--m-light-color10);
+
+    // swiper
+    --m-swiper-bg-color: rgba(0, 0, 0, .3);
+
+    // personal description
+    --m-personal-bg-color: rgba(0, 0, 0, 0.5);
+}

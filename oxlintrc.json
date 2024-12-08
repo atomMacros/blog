@@ -1,0 +1,17 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": [
+        "import",
+        "typescript",
+        "unicorn"
+    ],
+    "env": {
+        "browser": true
+    },
+    "settings": {},
+    "rules": {
+        "eqeqeq": "warn",
+        "import/no-cycle": "error",
+        "eslint/no-unused-vars": "error"
+    }
+}
